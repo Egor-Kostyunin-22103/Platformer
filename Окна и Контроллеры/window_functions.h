@@ -11,9 +11,6 @@ HWND Create_Object(LPSTR Type,
 				   SIZE Size,
 				   HWND Parent,
 				   HMENU Menu);
-HBITMAP Get_Texture(HWND hwnd,
-				     HBITMAP Textures,
-				     unsigned short int Index);
 void Set_Background(HWND hwnd,
 					HBRUSH Background);
 void Set_Cursor(HWND hwnd,
