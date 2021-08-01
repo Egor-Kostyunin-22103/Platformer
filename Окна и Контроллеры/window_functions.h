@@ -5,16 +5,16 @@ void Register_Class(LPWNDCLASSA Class,
 					LPSTR Type,
 					WNDPROC Proc);
 HWND Create_Object(LPSTR Type,
-				   DWORD Style,
-				   LPSTR Caption_or_Text,
-				   POINT Pos,
-				   SIZE Size,
-				   HWND Parent,
-				   HMENU Menu);
+		   DWORD Style,
+		   LPSTR Caption_or_Text,
+		   POINT Pos,
+		   SIZE Size,
+		   HWND Parent,
+		   HMENU Menu);
 void Set_Background(HWND hwnd,
-					HBRUSH Background);
+		    HBRUSH Background);
 void Set_Cursor(HWND hwnd,
-				LPSTR Cursor);
+		LPSTR Cursor);
 void Set_Icon(HWND hwnd,
-			  LPSTR Icon);
+	      LPSTR Icon);
 #endif
