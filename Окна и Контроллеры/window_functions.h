@@ -2,8 +2,8 @@
 #define WINDOW_FUNCTIONS_H
 #include <windows.h>
 void Register_Class(LPWNDCLASSA Class,
-					LPSTR Type,
-					WNDPROC Proc);
+		    LPSTR Type,
+		    WNDPROC Proc);
 HWND Create_Object(LPSTR Type,
 		   DWORD Style,
 		   LPSTR Caption_or_Text,
